@@ -26,12 +26,12 @@ required-features = ["std"]
 base64 = { version = "0.22", default-features = false }
 cfg-if = "1"
 fmt-cmp = "0.1.1"
-oauth-credentials-ios = { path = "../oauth-credentials-ios", default-features = false }
+oauth-credentials-ios = { path = "../oauth-credentials-ios", version = "0.0.1", default-features = false }
 percent-encoding = { version = "2.1", default-features = false }
 rand = { version = "0.8", default-features = false, features = ["getrandom"] }
 
 # `derive` feature
-oauth1-request-derive-ios = { path = "../oauth1-request-derive-ios", optional = true }
+oauth1-request-derive-ios = { path = "../oauth1-request-derive-ios", version = "0.0.1", optional = true }
 
 # `either` feature
 either = { version = "1.2", optional = true }
