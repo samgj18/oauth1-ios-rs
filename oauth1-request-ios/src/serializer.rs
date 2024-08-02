@@ -218,8 +218,8 @@ mod tests {
     #[cfg(feature = "hmac-sha1")]
     const TIMESTAMP: u64 = 1318622958;
 
-    struct Inspect<SM>(SM);
-    struct InspectSign<S>(S);
+    pub struct Inspect<SM>(SM);
+    pub struct InspectSign<S>(S);
 
     impl<SM: SignatureMethod> SignatureMethod for Inspect<SM> {
         type Sign = InspectSign<SM::Sign>;

@@ -4,7 +4,7 @@ use core::fmt::{self, Display, Write};
 use core::num::NonZeroU64;
 use core::str;
 
-use base64::{Engine as _};
+use base64::Engine as _;
 use rand::prelude::*;
 
 use crate::signature_method::{Sign, SignatureMethod};
