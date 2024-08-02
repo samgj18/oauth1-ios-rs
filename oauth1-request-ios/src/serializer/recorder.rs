@@ -19,7 +19,7 @@ use super::Serializer;
 /// Checking that a `Request` implementation works as intended:
 ///
 /// ```
-/// # extern crate oauth1_request as oauth;
+/// # extern crate oauth1_request_ios as oauth;
 /// #
 /// use oauth::serializer::recorder::{Record, Recorder};
 /// use oauth::serializer::{Serializer, SerializerExt};
@@ -152,7 +152,7 @@ impl<K, V> Record<K, V> {
     /// Represents a sequence of standard OAuth protocol paramters.
     ///
     /// ```
-    /// # extern crate oauth1_request as oauth;
+    /// # extern crate oauth1_request_ios as oauth;
     /// #
     /// use oauth::serializer::recorder::{Record, Recorder};
     /// use oauth::Request;

@@ -17,7 +17,7 @@ use crate::serializer::Serializer;
 ///
 #[cfg_attr(feature = "alloc", doc = " ```")]
 #[cfg_attr(not(feature = "alloc"), doc = " ```ignore")]
-/// # extern crate oauth1_request as oauth;
+/// # extern crate oauth1_request_ios as oauth;
 /// #
 /// let request = oauth::ParameterList::new([
 ///     ("foo", 123),

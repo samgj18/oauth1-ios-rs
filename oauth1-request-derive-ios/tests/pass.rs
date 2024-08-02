@@ -1,6 +1,6 @@
 #![deny(warnings)]
 
-extern crate oauth1_request as oauth;
+extern crate oauth1_request_ios as oauth;
 
 #[macro_use]
 mod common;

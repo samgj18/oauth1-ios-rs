@@ -2,7 +2,7 @@
 
 extern crate alloc;
 
-extern crate oauth1_request as oauth;
+extern crate oauth1_request_ios as oauth;
 
 use oauth::serializer::{Serializer, SerializerExt};
 

@@ -50,7 +50,7 @@ pub use skip_serialize_oauth_parameters;
 ///
 #[cfg_attr(all(feature = "alloc", feature = "hmac-sha1"), doc = " ```")]
 #[cfg_attr(not(all(feature = "alloc", feature = "hmac-sha1")), doc = " ```ignore")]
-/// # extern crate oauth1_request as oauth;
+/// # extern crate oauth1_request_ios as oauth;
 /// #
 /// use std::num::NonZeroU64;
 ///

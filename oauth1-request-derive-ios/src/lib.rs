@@ -5,7 +5,7 @@
 //! [Request]: https://docs.rs/oauth1-request-ios/0.0.1/oauth1_request_ios/trait.Request.html
 //!
 //! ```
-//! # extern crate oauth1_request_ios as oauth;
+//! # extern crate oauth1_request_ios_ios as oauth;
 //! #[derive(oauth::Request)]
 //! # struct Foo {}
 //! ```

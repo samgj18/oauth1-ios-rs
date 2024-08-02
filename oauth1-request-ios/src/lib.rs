@@ -21,7 +21,7 @@
     not(all(feature = "derive", feature = "hmac-sha1")),
     doc = " ```ignore"
 )]
-//! # extern crate oauth1_request as oauth;
+//! # extern crate oauth1_request_ios as oauth;
 //! #
 //! // Define a type to represent your request.
 //! #[derive(oauth::Request)]
@@ -82,7 +82,7 @@
 //!
 #![cfg_attr(feature = "alloc", doc = " ```")]
 #![cfg_attr(not(feature = "alloc"), doc = " ```ignore")]
-//! # extern crate oauth1_request as oauth;
+//! # extern crate oauth1_request_ios as oauth;
 //! #
 //! use std::fmt::Display;
 //!
@@ -102,7 +102,7 @@
 //!
 #![cfg_attr(all(feature = "alloc", feature = "hmac-sha1"), doc = " ```")]
 #![cfg_attr(not(all(feature = "alloc", feature = "hmac-sha1")), doc = " ```ignore")]
-//! # extern crate oauth1_request as oauth;
+//! # extern crate oauth1_request_ios as oauth;
 //! #
 //! let uri = "https://example.com/oauth/request_temp_credentials";
 //! let callback = "https://client.example.net/oauth/callback";
@@ -139,7 +139,7 @@ doc_auto_cfg! {
     ///
     #[cfg_attr(feature = "alloc", doc = " ```")]
     #[cfg_attr(not(feature = "alloc"), doc = " ```ignore")]
-    /// # extern crate oauth1_request as oauth;
+    /// # extern crate oauth1_request_ios as oauth;
     /// #
     /// #[derive(oauth::Request)]
     /// struct CreateItem<'a> {
