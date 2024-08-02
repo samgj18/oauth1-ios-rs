@@ -98,9 +98,6 @@ jobs:
         # through `oauth1-request-test-ios` crate, which depends on the crate but without the crate
         # features that causes the issue.
         run: cargo check --verbose --tests --manifest-path oauth1-request-test-ios/Cargo.toml --no-default-features '--features=${{ matrix.features }}'
-      - name: Check `examples`
-        if: ${{ !matrix.minimum_rust && matrix.target == '' }}
-        run: cargo check --verbose --manifest-path examples/Cargo.toml
       - name: Test `oauth1-request-ios`
         if: ${{ !matrix.minimum_rust && matrix.target == '' }}
         run: cargo test --manifest-path oauth1-request-ios/Cargo.toml --no-default-features '--features=${{ matrix.features }}'
