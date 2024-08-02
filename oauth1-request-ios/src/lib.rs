@@ -1,4 +1,4 @@
-//! Yet yet yet another OAuth 1.0 client library.
+//! OAuth 1.0 request signing with HmacSha256 support.
 //!
 //! # Usage
 //!
